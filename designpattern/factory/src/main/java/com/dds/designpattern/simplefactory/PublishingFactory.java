@@ -1,4 +1,6 @@
-package com.dds.designpattern.factory;
+package com.dds.designpattern.simplefactory;
+
+import com.dds.designpattern.IBook;
 
 /**
  * 出版类刊物工厂

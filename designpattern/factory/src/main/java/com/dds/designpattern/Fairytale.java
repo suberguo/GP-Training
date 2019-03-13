@@ -1,10 +1,11 @@
-package com.dds.designpattern.factory;
+package com.dds.designpattern;
 
 /**
- * 杂志
+ * 童话类书籍
  */
-public class Magazine implements IBook{
+public class Fairytale implements IBook {
     private String title;
+    private String author;
     private String isbn;
 
     public String getTitle() {
@@ -15,6 +16,14 @@ public class Magazine implements IBook{
         this.title = title;
     }
 
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
     public String getIsbn() {
         return isbn;
     }
@@ -23,11 +32,11 @@ public class Magazine implements IBook{
         this.isbn = isbn;
     }
 
-
     @Override
     public String toString() {
-        return "Magazine{" +
+        return "Book{" +
                 "title='" + title + '\'' +
+                ", author='" + author + '\'' +
                 ", isbn='" + isbn + '\'' +
                 '}';
     }

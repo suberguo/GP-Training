@@ -1,4 +1,4 @@
-package com.dds.designpattern.factory;
+package com.dds.designpattern;
 
 /**
  * 书籍杂志接口类
