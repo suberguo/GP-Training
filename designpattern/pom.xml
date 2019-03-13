@@ -9,6 +9,8 @@
         <module>prototype</module>
         <module>singleton</module>
         <module>proxy</module>
+        <module>delegate</module>
+        <module>strategy</module>
     </modules>
     <groupId>com.dds.designpattern</groupId>
     <artifactId>designpattern</artifactId>
