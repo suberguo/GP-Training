@@ -1,10 +1,12 @@
 package com.dds.designpattern.proxy.staticproxy;
 
+import com.dds.designpattern.proxy.IPerson;
+
 public class Matchmaker {
 
-    private Person person;
+    private IPerson person;
 
-    public Matchmaker(Person person) {
+    public Matchmaker(IPerson person) {
         this.person = person;
     }
 

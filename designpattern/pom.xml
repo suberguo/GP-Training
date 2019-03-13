@@ -8,6 +8,7 @@
         <module>factory</module>
         <module>prototype</module>
         <module>singleton</module>
+        <module>proxy</module>
     </modules>
     <groupId>com.dds.designpattern</groupId>
     <artifactId>designpattern</artifactId>
