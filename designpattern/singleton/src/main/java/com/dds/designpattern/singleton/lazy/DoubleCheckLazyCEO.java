@@ -15,9 +15,11 @@ public class DoubleCheckLazyCEO {
     }
 
     public static final DoubleCheckLazyCEO getInstance() {
-        synchronized (DoubleCheckLazyCEO.class) {
-            if (INSTANCE == null)
-                INSTANCE = new DoubleCheckLazyCEO("张三");
+        if(INSTANCE == null) {
+            synchronized (DoubleCheckLazyCEO.class) {
+                if (INSTANCE == null)
+                    INSTANCE = new DoubleCheckLazyCEO("张三");
+            }
         }
         return INSTANCE;
     }
