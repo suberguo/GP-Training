@@ -2,8 +2,10 @@ package com.dds.designpattern.singleton.lazy;
 
 public class InnerLazyCEO {
 
-    private InnerLazyCEO() {
-
+    private InnerLazyCEO() throws Exception {
+        if (CEO.INSTANCE != null) {
+            throw new Exception("不能创建对象");
+        }
     }
 
     public static final CEO getInstance() {
