@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="169.0" y="0.0">com.dds.designpattern.IBook</node>
+    <node x="267.0" y="80.0">com.dds.designpattern.Book</node>
+    <node x="171.0" y="80.0">com.dds.designpattern.Bible</node>
+    <node x="0.0" y="80.0">com.dds.designpattern.simplefactory.PublishingFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.dds.designpattern.Book" target="com.dds.designpattern.IBook">
+      <point x="0.0" y="-15.0" />
+      <point x="305.5" y="55.0" />
+      <point x="235.66666666666669" y="55.0" />
+      <point x="26.666666666666686" y="15.0" />
+    </edge>
+    <edge source="com.dds.designpattern.Bible" target="com.dds.designpattern.IBook">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.dds.designpattern.simplefactory.PublishingFactory" target="com.dds.designpattern.IBook">
+      <point x="0.0" y="-15.0" />
+      <point x="75.5" y="55.0" />
+      <point x="182.33333333333334" y="55.0" />
+      <point x="-26.666666666666657" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="182.5" y="120.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

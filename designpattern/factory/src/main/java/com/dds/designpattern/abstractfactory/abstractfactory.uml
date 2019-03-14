@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="152.0" y="155.0">com.dds.designpattern.IBook</node>
+    <node x="0.0" y="80.0">com.dds.designpattern.abstractfactory.ShenZhenFactory</node>
+    <node x="168.0" y="80.0">com.dds.designpattern.abstractfactory.HuMenFactory</node>
+    <node x="0.0" y="155.0">com.dds.designpattern.IMagazine</node>
+    <node x="109.0" y="0.0">com.dds.designpattern.abstractfactory.Factory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.dds.designpattern.abstractfactory.HuMenFactory" target="com.dds.designpattern.abstractfactory.Factory">
+      <point x="0.0" y="-15.0" />
+      <point x="235.0" y="55.0" />
+      <point x="177.25" y="55.0" />
+      <point x="22.75" y="15.0" />
+    </edge>
+    <edge source="com.dds.designpattern.abstractfactory.ShenZhenFactory" target="com.dds.designpattern.abstractfactory.Factory">
+      <point x="0.0" y="-15.0" />
+      <point x="74.0" y="55.0" />
+      <point x="131.75" y="55.0" />
+      <point x="-22.75" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes>
+    <node>com.dds.designpattern.abstractfactory.HuMenFactory</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

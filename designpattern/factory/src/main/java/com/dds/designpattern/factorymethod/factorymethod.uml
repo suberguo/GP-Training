@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="237.421875" y="160.0">com.dds.designpattern.factorymethod.FairytaleFactory</node>
+    <node x="132.5" y="0.0">com.dds.designpattern.IBook</node>
+    <node x="268.0" y="80.0">com.dds.designpattern.Fairytale</node>
+    <node x="16.296875" y="160.0">com.dds.designpattern.factorymethod.BibleFactory</node>
+    <node x="0.0" y="80.0">com.dds.designpattern.Bible</node>
+    <node x="97.0" y="80.0">com.dds.designpattern.factorymethod.PublishingFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.dds.designpattern.factorymethod.BibleFactory" target="com.dds.designpattern.IBook">
+      <point x="15.0" y="-15.0" />
+      <point x="91.296875" y="135.0" />
+      <point x="86.5" y="135.0" />
+      <point x="86.5" y="60.0" />
+      <point x="156.5" y="60.0" />
+      <point x="-16.0" y="15.0" />
+    </edge>
+    <edge source="com.dds.designpattern.factorymethod.BibleFactory" target="com.dds.designpattern.factorymethod.PublishingFactory">
+      <point x="45.0" y="-15.0" />
+      <point x="121.296875" y="135.0" />
+      <point x="134.75" y="135.0" />
+      <point x="-37.75" y="15.0" />
+    </edge>
+    <edge source="com.dds.designpattern.factorymethod.FairytaleFactory" target="com.dds.designpattern.IBook">
+      <point x="52.5" y="-15.0" />
+      <point x="359.921875" y="135.0" />
+      <point x="374.5" y="135.0" />
+      <point x="374.5" y="50.0" />
+      <point x="204.5" y="50.0" />
+      <point x="32.0" y="15.0" />
+    </edge>
+    <edge source="com.dds.designpattern.Bible" target="com.dds.designpattern.IBook">
+      <point x="0.0" y="-15.0" />
+      <point x="38.0" y="50.0" />
+      <point x="140.5" y="50.0" />
+      <point x="-32.0" y="15.0" />
+    </edge>
+    <edge source="com.dds.designpattern.factorymethod.FairytaleFactory" target="com.dds.designpattern.factorymethod.PublishingFactory">
+      <point x="-52.5" y="-15.0" />
+      <point x="254.921875" y="135.0" />
+      <point x="210.25" y="135.0" />
+      <point x="37.75" y="15.0" />
+    </edge>
+    <edge source="com.dds.designpattern.factorymethod.PublishingFactory" target="com.dds.designpattern.IBook">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.dds.designpattern.factorymethod.BibleFactory" target="com.dds.designpattern.Bible">
+      <point x="-15.0" y="-15.0" />
+      <point x="61.296875" y="135.0" />
+      <point x="57.0" y="135.0" />
+      <point x="19.0" y="15.0" />
+    </edge>
+    <edge source="com.dds.designpattern.Fairytale" target="com.dds.designpattern.IBook">
+      <point x="0.0" y="-15.0" />
+      <point x="316.0" y="60.0" />
+      <point x="188.5" y="60.0" />
+      <point x="16.0" y="15.0" />
+    </edge>
+    <edge source="com.dds.designpattern.factorymethod.FairytaleFactory" target="com.dds.designpattern.Fairytale">
+      <point x="17.5" y="-15.0" />
+      <point x="324.921875" y="135.0" />
+      <point x="340.0" y="135.0" />
+      <point x="24.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="140.0" y="55.0" />
+  <SelectedNodes>
+    <node>com.dds.designpattern.IBook</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
