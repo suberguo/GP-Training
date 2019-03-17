@@ -3,7 +3,7 @@ package com.dds.designpattern.strategy;
 /**
  * 按成本线找审批人
  */
-public class CostCenterApproverStrategy extends ApproverStrategy {
+public class CostCenterApproverStrategy implements ApproverStrategy {
 
 
 

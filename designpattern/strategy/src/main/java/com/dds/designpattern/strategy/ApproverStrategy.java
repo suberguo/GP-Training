@@ -7,8 +7,8 @@ package com.dds.designpattern.strategy;
  * @see CostCenterApproverStrategy 成本中心：根据成本中心找审批人
  * @see RoleApproverStrategy       审批角色：根据审批权限(通过单据各属性解析审批权限)找审批人
  */
-public abstract class ApproverStrategy {
+public interface ApproverStrategy {
 
-   public abstract Approver find(ApplyOrder order);
+    Approver find(ApplyOrder order);
 
 }

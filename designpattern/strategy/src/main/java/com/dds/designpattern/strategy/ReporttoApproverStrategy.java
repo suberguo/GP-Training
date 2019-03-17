@@ -1,7 +1,7 @@
 package com.dds.designpattern.strategy;
 
 
-public class ReporttoApproverStrategy extends ApproverStrategy {
+public class ReporttoApproverStrategy implements ApproverStrategy {
 
 
     @Override

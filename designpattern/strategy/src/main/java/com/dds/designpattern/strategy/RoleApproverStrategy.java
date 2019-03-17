@@ -3,7 +3,7 @@ package com.dds.designpattern.strategy;
 /**
  * 根据角色权限找审批人
  */
-public class RoleApproverStrategy extends ApproverStrategy {
+public class RoleApproverStrategy implements ApproverStrategy {
 
 
     @Override
