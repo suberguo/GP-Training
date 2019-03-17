@@ -11,6 +11,7 @@
         <module>proxy</module>
         <module>delegate</module>
         <module>strategy</module>
+        <module>template</module>
     </modules>
     <groupId>com.dds.designpattern</groupId>
     <artifactId>designpattern</artifactId>
