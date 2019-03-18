@@ -12,6 +12,9 @@
         <module>delegate</module>
         <module>strategy</module>
         <module>template</module>
+        <module>decorator</module>
+        <module>observer</module>
+        <module>adapter</module>
     </modules>
     <groupId>com.dds.designpattern</groupId>
     <artifactId>designpattern</artifactId>
