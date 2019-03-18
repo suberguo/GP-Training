@@ -7,8 +7,9 @@ package com.dds.designpattern.template;
  */
 public abstract class Ecn {
 
-    public void execute(){
-        if(!this.initiate()) {
+    public void execute() {
+        this.initiate();
+        if (this.needReview()) {
             this.reviewByPE();
         }
         this.approveByPEManager();
@@ -17,10 +18,14 @@ public abstract class Ecn {
         this.confirmByPE();
     }
 
+    protected boolean needReview() {
+        return false;
+    }
+
     /**
      * 发起
      */
-    public abstract boolean initiate();
+    public abstract void initiate();
 
     /**
      * PE审核
